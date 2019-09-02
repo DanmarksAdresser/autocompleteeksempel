@@ -1,0 +1,30 @@
+{
+  "name": "autocompleteeksempel",
+  "version": "1.0.0",
+  "description": "Eksempel på brug af et DAWA autocomplete API med komponenten autocomplete.js (npm)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/ --ignore-pattern dist/",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanmarksAdresser/autocompleteeksempel.git"
+  },
+  "author": "Finn Jordal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanmarksAdresser/autocompleteeksempel/issues"
+  },
+  "homepage": "https://github.com/DanmarksAdresser/autocompleteeksempel#readme",
+  "dependencies": {
+    "autocomplete.js": "^0.36.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
