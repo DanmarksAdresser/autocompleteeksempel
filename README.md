@@ -1,5 +1,5 @@
-# autocompleteeksempel
-Eksempel på brug af et DAWA autocomplete API med komponenten autocomplete.js (npm)
+# jordstykkeautocompleteeksempel
+Eksempel på autocomplete af matrikelnr ved brug af et DAWA autocomplete API samt komponenten autocomplete.js (npm)
 
 Installer: npm install
 
