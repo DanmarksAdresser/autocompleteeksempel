@@ -13,7 +13,7 @@ function initAutocomplete(input, url, selected) {
     }
   }
 
-  autocomplete(input, {}, [
+  autocomplete(input, {hint: true, openOnFocus: true}, [
     {
       source: search(url),
       displayKey: 'betegnelse',
